@@ -1,0 +1,32 @@
+# 💊 PharmaOps Analyzer: İlaç Sektörü Ticari Operasyon Paneli
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.20%2B-red)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-green)
+
+PharmaOps Analyzer, ilaç sektöründeki karmaşık ticari operasyonları, ecza deposu stok takiplerini ve finansal mutabakat süreçlerini dijitalleştirmek amacıyla geliştirilmiş etkileşimli bir veri analitiği ve yönetim panelidir. 
+
+Bu proje, büyük veri setlerini işleyerek üst yönetime anlık, doğru ve aksiyona dönüştürülebilir içgörüler sunmayı hedefler.
+
+## 🚀 Öne Çıkan Özellikler ve Çözülen İş Problemleri
+
+* **📊 Satış ve Fatura Analizi:** Dinamik filtreler (tarih, bölge, müşteri segmenti) kullanılarak günlük ve aylık net satış, brüt ciro ve operasyonel karlılık raporlarının anlık olarak üretilmesi.
+* **💸 Otomatize Ticari Mutabakat:** Ecza depolarının (Selçuk Ecza, Hedef, Alliance vb.) sözleşme hedeflerine göre Ciro Primi hak edişlerinin ve Mal Fazlası (MF) oranlarının insan hatasından bağımsız, otomatik olarak hesaplanması.
+* **📉 İade ve Fiyat Farkı Takibi:** İade oranlarının ve fiyat farkı kesintilerinin toplam ciroya etkisinin şeffaf bir şekilde izlenmesi.
+* **🔮 Stok ve Talep Öngörüsü (Makine Öğrenmesi Hazırlığı):** Geçmiş satış trendlerine ve kampanya dönemlerine dayalı olarak bir sonraki ayın güvenli stok seviyelerinin ve sipariş gereksinimlerinin öngörülmesi.
+
+## 🛠️ Kullanılan Teknolojiler
+
+* **Geliştirme Ortamı & Dil:** Python
+* **Arayüz (UI) Çerçevesi:** Streamlit
+* **Veri İşleme ve Manipülasyon:** Pandas, NumPy
+* **Veri Görselleştirme:** Plotly (Express & Graph Objects)
+
+## ⚙️ Kurulum ve Çalıştırma Yönergesi
+
+Projeyi kendi yerel bilgisayarınızda (Localhost) çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. **Depoyu Klonlayın:**
+   ```bash
+   git clone [https://github.com/kullaniciadiniz/pharmaOps.git](https://github.com/kullaniciadiniz/pharmaOps.git)
+   cd pharmaOps
